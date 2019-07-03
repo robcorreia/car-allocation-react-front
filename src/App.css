@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel:400,700,900&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  font-family: Cinzel, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  color: #252525;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background: url(https://images.unsplash.com/photo-1549187805-6079facea88d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80) top no-repeat;
+  background-size: cover;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul, li {
+  list-style: none;
+}
+
+
+h1 {
+  font-size: 5em;
+  margin: 0 0 20px 0;
+}
+
+h2 {
+  font-size: 3em;
+  margin: 0 0 20px 0;
+}
+
+p {
+  font-size: 1.6em;
+  line-height: 24px;
+}
+
+form {
+  -webkit-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.28);
+  -moz-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.28);
+  box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.28);
+  background: rgba(19,128,97,0.7);
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 40px 0;
+  height: calc(100vh - 70px);
+}
+
+label {
+  width: 130px;
+  font-weight: 700;
+  display: inline-block;
+  color: #ffffff;
+  padding-right: 5px;
+  text-align: right;
+
+}
+
+input {
+  font-family: Cinzel;
+  display: inline-block;
+  margin: 2px 10px;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #ffffff;
+  width: 200px;
+  font-size: 1.4em;
+  color: #ffffff;
+  padding: 0 5px;
+  margin-top: 5px;
+}
+
+.btn {
+  border: 1px solid #ffffff;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 5px 20px;
+  letter-spacing: 1px;
+  color: #ffffff;
+  transition: 0.5s;
+  margin: 20px auto;
+}
+
+table {
+  width: 100%;
+  max-width: 800px;
+  margin: 40px auto;
+  -webkit-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.28);
+  -moz-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.28);
+  box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.28);
+  background: rgba(19,128,97,0.6);
+}
+
+thead {
+  color: #000;
+}
+
+th {
+  padding: 5px 20px;
+  font-size: 1.2em;
+}
+
+
+
+
+
+@media screen and (max-width: 1118px) {
+  .brand {
+    font-size: 2em !important;
+    display: block !important;
+    position: relative !important;
+    text-align: center;
+  }
+
+  .brand:after {
+    display: none;
+  }
+
+  .brand::before {
+    width: 20px;
+  }
+
+  .menu {
+    float: initial !important;
+    text-align: center !important;
+    position: relative !important;
+    display: block !important;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  body {
+    background: #000000;
+  }
+
+  label {
+    text-align: center;
+    margin-top: 20px;
+  }
+}
